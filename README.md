@@ -1,2 +1,6 @@
 # upload-file-to-s3
-Upload a file to S3-compatible storage
+Github action for uploading a file to S3-compatible storage.
+
+## License
+
+Blue Oak Model License, see `./LICENSE`
