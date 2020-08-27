@@ -1,0 +1,28 @@
+name: 'Upload file to S3'
+description: 'Uploads file to S3-compatible storage'
+inputs:
+  filename:
+    description: 'file to upload'
+    required: true
+    default: 'artifact'
+  accessKey:
+    description: 'AWS_ACCESS_KEY_ID'
+    required: true
+  secretKey:
+    description: 'AWS_SECRET_ACCESS_KEY'
+    required: true
+  endpoint:
+    description: 'full endpoint hostname'
+    default: 'fra1.digitaloceanspaces.com'
+  acl:
+    description: 'acl'
+    default: 'public-read'
+  bucket:
+    description: 'destination bucket'
+    required: true
+outputs:
+  "s3-upload":
+     description: "raw data from aws-sdk"
+runs:
+  using: 'node12'
+  main: 'index.js'

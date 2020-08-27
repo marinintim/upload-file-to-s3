@@ -1,0 +1,24 @@
+{
+  "name": "upload-file-to-s3",
+  "version": "1.0.0",
+  "description": "Github action for uploading a file to S3-compatible storage.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marinintim/upload-file-to-s3.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "BlueOakModelLicense-1.0",
+  "bugs": {
+    "url": "https://github.com/marinintim/upload-file-to-s3/issues"
+  },
+  "homepage": "https://github.com/marinintim/upload-file-to-s3#readme",
+  "dependencies": {
+    "@actions/core": "^1.2.5",
+    "aws-sdk": "^2.741.0"
+  }
+}
