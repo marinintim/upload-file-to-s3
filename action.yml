@@ -25,4 +25,4 @@ outputs:
      description: "raw data from aws-sdk"
 runs:
   using: 'node12'
-  main: 'index.js'
+  main: 'action.js'
